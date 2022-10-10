@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    margin:0px 15em;
+    display: flex;
+}
+
+.sign-up {
+    background: lightgray;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height:30%;
+}
+
+.header > h1,
+.header > p {
+    margin: 80px 30px -80px;
+}
+
+.header > p {
+    font-size: 1.123em;
+}
+
+.header > h1 > strong {
+    font-size: 1.2em;
+}
+
+.form {
+    background-color: white;
+    height: 40%;
+    box-shadow: 0px 14px 25px 3px;
+}
+
+.bottom {
+    height: 30%;
+}
